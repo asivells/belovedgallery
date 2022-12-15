@@ -16,5 +16,5 @@ h1.ng-star-inserted::after {
     content:'Your RSVP has been received!';
      text-indent: 0;
   display: block;
-  line-height: initial; /* New content takes up original line height */
+  line-height: initial; /* New content takes up original line height */ !important;
 }

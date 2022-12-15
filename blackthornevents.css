@@ -1,3 +1,20 @@
 .success-image {
- display: none !important
+ display: block;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ background: url(https://drive.google.com/file/d/13tuKwyM6eeVthDC15gRCJnAQr_jl1M15/view?usp=sharing)
+ no-repeat;
+ width: 400px;
+ height: 200px;
+ padding-left: 400px;
+}
+h1.ng-star-inserted {
+text-indent: -9999px;
+  line-height: 0; /* Collapse the original line */    
+}
+h1.ng-star-inserted::after {
+    content:'Your RSVP has been received!';
+     text-indent: 0;
+  display: block;
+  line-height: initial; /* New content takes up original line height */
 }
